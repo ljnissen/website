@@ -89,7 +89,7 @@ h1.post-title {
 
 h1.about {
 	margin-top: 70px;
-	margin-left: -320px;
+	margin-left: -295px;
 	font-size: 30px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase; 
@@ -101,7 +101,7 @@ div.content2 {
 	margin-left: -10px;
 	background: #F0F0F1 no-repeat left top;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	border: 10px solid;
+	border: 30px solid;
 	color: #F0F0F1; 
 	text-align: left;
 	overflow: visible;
@@ -119,7 +119,6 @@ h2.page {
 }
 
 p.pick {
-	float: left;
 	margin-top: 15px;
 	margin-left: 15px;
 	font-size: 18px;
@@ -127,7 +126,6 @@ p.pick {
 	text-align: left;
 	background: #F0F0F1 no-repeat left top;
 	color: 484948;
-	min-width: 100%;
 }
 
 h3.post-thumb-left {
@@ -145,7 +143,7 @@ h3.post-thumb-left {
 
 h2.recent {
 	margin-top: 15px;
-	margin-left: 20px;
+	margin-left: 15px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -156,7 +154,8 @@ h2.recent {
 
 h3.revisit {
 	margin-top: 15px;
-	margin-left: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -167,18 +166,18 @@ h3.revisit {
 
 p.juniors {
 	margin-top: 15px;
-	margin-left: 20px;
+	margin-left: 15px;
+	margin-right: 600px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
 	color: #484948;
 	background: #F0F0F1;
-	min-width: 1400px;
 }
 
 p.date {
 	margin-top: 15px;
-	margin-left: 20px;
+	margin-left: 15px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -189,7 +188,7 @@ p.date {
 
 h3.top {
 	margin-top: 15px;
-	margin-left: 20px;
+	margin-left: 15px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -199,7 +198,7 @@ h3.top {
 
 p.companies {
 	margin-top: 15px;
-	margin-left: 20px;
+	margin-left: 15px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -210,7 +209,7 @@ p.companies {
 
 p.date2 {
 	margin-top: 15px;
-	margin-left: 20px;
+	margin-left: 15px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
