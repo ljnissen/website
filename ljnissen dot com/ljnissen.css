@@ -32,9 +32,21 @@
 }
 
 .post-container {
-	margin: 0px 0px 0 0;
-	overflow: visible;
+	width: 950px;
+	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
 }
+
+
+h1.post-title {
+	font-size: 28px;
+	margin-left: 250px;
+	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase; 
+	text-align: left;
+	color: #13366D;
+}
+
 
 .post-thumb {
 	float: left;
@@ -47,14 +59,22 @@
 
 .post-content {
 	margin-right: 15px;
-	margin-left: 330px;
+	margin-left: 100px;
 	padding-top: 15px;
+	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
 	text-align: left;
 	overflow: visible;
 }
 
 p.paragraph {
-	margin-left: 330px;
+	margin-left: 250px;
+	padding-top: 15px;
+	text-align: left;	
+}
+
+p.paragraph2 {
+	margin-left: 250px;
 	padding-top: 15px;
 	text-align: left;	
 }
@@ -78,19 +98,10 @@ a:hover {
 	text-decoration: underline;
 }
 
-
-h1.post-title {
-	font-size: 30px;
-	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	text-transform: uppercase; 
-	text-align: left;
-	color: #13366D;
-}
-
 h1.about {
-	margin-top: 70px;
-	margin-left: -295px;
-	font-size: 30px;
+	margin-top: 20px;
+	margin-left: -65px;
+	font-size: 28px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase; 
 	text-align: left;
@@ -104,7 +115,7 @@ div.content2 {
 	border: 30px solid;
 	color: #F0F0F1; 
 	text-align: left;
-	overflow: visible;
+	/* overflow: visible; */
 }
 
 h2.page {
@@ -114,8 +125,7 @@ h2.page {
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
 	color: #484948;
-	background: #F0F0F1 no-repeat left top;
-		
+	background: #F0F0F1 no-repeat left top;		
 }
 
 p.pick {
@@ -128,18 +138,11 @@ p.pick {
 	color: 484948;
 }
 
-h3.post-thumb-left {
+ h3.post-thumb-left {
 	margin-top: 15px;
-	margin-left: 20px;
-	font-size: 18px;
-	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	text-align: left;
-	color: #484948;
-	background: #F0F0F1 no-repat left top;
-	min-width: 1400px;
+	margin-right: 220px;
 	display: inline;
-	vertical-align: middle;
-}
+} 
 
 h2.recent {
 	margin-top: 15px;
@@ -148,75 +151,61 @@ h2.recent {
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
 	color: #484948;
+	background: #F0F0F1 no-repeat left top;	
+}
+
+div.container3 {
+	width: 900px;
+	height: 1280px;
 	background: #F0F0F1 no-repeat left top;
-	min-width: 1400px;	
 }
 
-h3.revisit {
-	margin-top: 15px;
-	margin-left: 15px;
-	margin-right: 15px;
-	font-size: 18px;
-	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	text-align: left;
-	color: #484948;
-	background: #F0F0F1;
-	min-width: 1400px;
-}
-
-p.juniors {
-	margin-top: 15px;
-	margin-left: 15px;
-	margin-right: 600px;
-	font-size: 18px;
-	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	text-align: left;
-	color: #484948;
-	background: #F0F0F1;
-}
-
-p.date {
-	margin-top: 15px;
-	margin-left: 15px;
+ .column1 {
+	width: 325px;
+	margin-left: -30px;
+	margin-bottom: -50px;
+	float: left;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
 	color: #484948;
 	background: #F0F0F1 no-repeat left top;
-	min-width: 1400px;
+} 
+
+   h3.revisit {
+   	width: 325px;
+	float: left;
+	margin-left: 45px;
+	margin-top: 15px;
+	font-size: 18px;
+	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	text-align: left;
+	color: #484948;
+	background: #F0F0F1 no-repeat left top;
+} 
+
+.column2 {
+	width: 600px;
+	float: right;
+	margin-right: -30px;
+	margin-bottom: -55px;
+	font-size: 18px;
+	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	text-align: left;
+	color: #484948;
+	background: #F0F0F1 no-repeat left top;
 }
 
 h3.top {
-	margin-top: 15px;
-	margin-left: 15px;
+	float: right;
+	width: 300px;
+	margin-right: 70px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
 	color: #484948;
 	background: #F0F0F1 no-repeat left top;
-}
-
-p.companies {
-	margin-top: 15px;
-	margin-left: 15px;
-	font-size: 18px;
-	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	text-align: left;
-	color: #484948;
-	background: #F0F0F1;
-	min-width: 1400px;
-}
-
-p.date2 {
-	margin-top: 15px;
-	margin-left: 15px;
-	font-size: 18px;
-	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	text-align: left;
-	color: #484948;
-	background: #F0F0F1;
-	min-width: 1400px;
-}
+} 
 
 h3, h4, h5, h6 {
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
