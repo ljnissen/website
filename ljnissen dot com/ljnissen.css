@@ -50,17 +50,18 @@ h1.post-title {
 
 .post-thumb {
 	float: left;
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 .post-thumb img {
 	display: block
+	margin-top: 0px;
 }
 
 .post-content {
 	margin-right: 15px;
+	margin-top: 30px;
 	margin-left: 100px;
-	padding-top: 15px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	text-align: left;
@@ -69,7 +70,7 @@ h1.post-title {
 
 p.paragraph {
 	margin-left: 250px;
-	padding-top: 15px;
+	margin-top: 30px;	
 	text-align: left;	
 }
 
@@ -82,11 +83,22 @@ p.paragraph2 {
  body {
 	padding: 0px;
 	margin: 0px;
-	background:#D4D2D2;
+	background: #D4D2D2;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	color: #484948;
 } 
+
+a.over {
+	text-decoration: none;
+	color: white;
+}
+
+a.over:hover {
+	text-decoration: none;
+	color: white;
+	text-decoration: underline;
+}
 
 a {
 	text-decoration: none;
@@ -99,7 +111,7 @@ a:hover {
 }
 
 h1.about {
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-left: -65px;
 	font-size: 28px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -144,6 +156,12 @@ p.pick {
 	display: inline;
 } 
 
+h3.post-thumb-right {
+	margin-left: 20px;
+	margin-right: 320px;
+	display: inline;
+}
+
 h2.recent {
 	margin-top: 15px;
 	margin-left: 15px;
@@ -155,7 +173,7 @@ h2.recent {
 }
 
 div.container3 {
-	width: 900px;
+	width: 900px
 	height: 1280px;
 	background: #F0F0F1 no-repeat left top;
 }
