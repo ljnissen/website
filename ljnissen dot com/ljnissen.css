@@ -122,12 +122,13 @@ h1.about {
 
 div.content2 {
 	margin-left: -10px;
+	width: 930px;
+	height: 1280px;
 	background: #F0F0F1 no-repeat left top;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	border: 30px solid;
 	color: #F0F0F1; 
 	text-align: left;
-	/* overflow: visible; */
 }
 
 h2.page {
@@ -159,6 +160,18 @@ p.pick {
 h3.post-thumb-right {
 	margin-left: 20px;
 	margin-right: 320px;
+	display: inline;
+}
+
+h3.post-thumb-bottom-left {
+	margin-left: 20px;
+	margin-right: 220px;
+	display: inline;
+}
+
+h3.post-thumb-bottom-right {
+	margin-left: 110px;
+	margin-right: 220px;
 	display: inline;
 }
 
@@ -205,7 +218,8 @@ div.container3 {
 .column2 {
 	width: 600px;
 	float: right;
-	margin-right: -30px;
+	margin-top: -5px;
+	margin-right: 0px;
 	margin-bottom: -55px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
