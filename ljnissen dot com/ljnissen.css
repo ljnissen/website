@@ -123,7 +123,7 @@ h1.about {
 div.content2 {
 	margin-left: -10px;
 	width: 930px;
-	height: 1280px;
+	height: 560px;
 	background: #F0F0F1 no-repeat left top;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	border: 30px solid;
@@ -185,16 +185,10 @@ h2.recent {
 	background: #F0F0F1 no-repeat left top;	
 }
 
-div.container3 {
-	width: 900px
-	height: 1280px;
-	background: #F0F0F1 no-repeat left top;
-}
-
  .column1 {
 	width: 325px;
 	margin-left: -30px;
-	margin-bottom: -50px;
+	margin-top: 28px;
 	float: left;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
@@ -218,9 +212,9 @@ div.container3 {
 .column2 {
 	width: 600px;
 	float: right;
-	margin-top: -5px;
+	margin-top: 0px;
 	margin-right: 0px;
-	margin-bottom: -55px;
+	margin-bottom: 50px;
 	font-size: 18px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -238,6 +232,22 @@ h3.top {
 	color: #484948;
 	background: #F0F0F1 no-repeat left top;
 } 
+
+div.content4 {
+	margin-left: -50px;
+	width: 1000px;
+	height: 300px;
+	background: #484948 no-repeat left top;
+	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	border: 30px solid;
+	color: #F0F0F1; 
+	text-align: left;
+}
+
+div.post-thumb-bottom-middle {
+	margin-top: 5px;
+	margin-left: 350px;
+}
 
 h3, h4, h5, h6 {
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
