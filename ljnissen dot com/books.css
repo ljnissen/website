@@ -51,9 +51,9 @@ body { font-family: "Eurostile" !important;
 
 .post-title {
 	float: right;
-	width: 535px;
+	width: 585px;
 	font-size: 28px;
-	margin-left: 20px;
+	margin-left: 0px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase; 
 	text-align: left;
@@ -63,30 +63,64 @@ body { font-family: "Eurostile" !important;
 
 p.paragraph {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 585px;
+	margin-left: 0px;
 	text-align: left;	
 }
 
 p.paragraph2 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 585px;
+	margin-left: 0px;
 	text-align: left;	
 }
 
 p.paragraph3 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 585px;
+	margin-left: 0px;
+	text-align: left;	
+}
+
+p.paragraph3b {
+	float: right;
+	width: 585px;
+	margin-left: 0px;
 	text-align: left;	
 }
 
 p.paragraph4 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 585px;
+	margin-left: 0px;
 	text-align: left;	
+}
+
+p.paragraph5 {
+	float: right;
+	width: 585px;
+	margin-left: 0px;
+	text-align: left;
+
+	/* float: left;
+	width: 300px;
+	margin-top: -50px;
+	margin-left: 50px;
+	text-align: left; */	
+}
+
+p.paragraph6 {
+	float: right;
+	width: 585px;
+	margin-left: 0px;
+	text-align: left;
+}
+
+.pure-form {
+	float: left;
+	width: 350px;
+	margin-left: 385px;
+	text-align: left;
 }
 
 a.over {
@@ -109,6 +143,3 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-
-
-
