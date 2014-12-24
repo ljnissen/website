@@ -10,7 +10,7 @@
 }
 
 #header {
-	width: 100%;
+	width: 1600px;
 	height: 35px;
 	padding: 15px;
 	margin: 0px;
@@ -122,8 +122,8 @@ h1.about {
 
 div.content2 {
 	margin-left: -10px;
-	width: 1400px;
-	height: 560px;
+	width: 1600px;
+	height: 850px;
 	background: #F0F0F1 no-repeat left top;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	border: 30px solid;
@@ -190,11 +190,11 @@ h2.recent {
 }
 
  .column1 {
-	width: 650px;
-	height: 600px;
+	width: 630px;
+	height: 400px;
 	margin-left: -30px;
 	margin-top: 28px;
-	margin-bottom: 150px;
+	margin-bottom: 0px;
 	float: left;
 	font-size: 24px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
@@ -205,11 +205,11 @@ h2.recent {
 
    h3.revisit {
    	width: 300px;
-   	height: 600px;
+   	height: 400px;
 	float: left;
 	margin-left: 45px;
 	margin-top: 15px;
-	margin-bottom: 150px;
+	margin-bottom: 0px;
 	font-size: 24px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -220,11 +220,11 @@ h2.recent {
 
 .column2 {
 	width: 650px;
-	height: 600px;
+	height: 400px;
 	float: right;
 	margin-top: 0px;
 	margin-right: 150px;
-	margin-bottom: 150px;
+	margin-bottom: 0px;
 	font-size: 24px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -235,11 +235,11 @@ h2.recent {
 h3.top {
 	float: right;
 	width: 300px;
-	height: 600px;
+	height: 400px;
 	margin-top: 40px;
 	margin-left: 170px;
-	margin-right: 350px;
-	margin-bottom: 150px;
+	margin-right: 520px;
+	margin-bottom: 0px;
 	font-size: 24px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -247,10 +247,10 @@ h3.top {
 	background: #F0F0F1 no-repeat left top;
 } 
 
-div.content4 {
+#footer {
 	margin-left: -50px;
 	width: 1600px;
-	height: 600px;
+	height: 400px;
 	background: #484948 no-repeat left top;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	border: 30px solid;
@@ -259,7 +259,7 @@ div.content4 {
 }
 
 div.post-thumb-bottom-middle {
-	margin-top: 350px;
+	margin-top: 50px;
 	margin-left: 400px;
 }
 /*
