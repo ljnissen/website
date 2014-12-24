@@ -1,12 +1,12 @@
-body { font-family: "Eurostile" !important; 
- src: local(Eurostile), url("http://coquilles-web-logo.se/fonts/eurostile-webfont.ttf");
- src: url('http://coquilles-web-logo.se/fonts/eurostile-webfont.eot');
- src: url('http://coquilles-web-logo.se/fonts/eurostile-webfont.eot?#iefix') format('embedded-opentype');
- url('http://coquilles-web-logo.se/fonts/eurostile-webfont.woff') format('woff');
- url('http://coquilles-web-logo.se/fonts/eurostile-webfont.ttf') format('truetype');
- url('http://coquilles-web-logo.se/fonts/eurostile-webfont.svg#FontName') format('svg');
- font-weight: normal;
- font-style: normal;
+@font-face { 
+	font-family: 'Eurostile' !important; 
+ 	src: url('../Webfonts/eurostile-webfont.eot');
+ 	src: url('../Webfonts/eurostile-webfont.eot?#iefix') format('embedded-opentype'),
+ 	url('../Webfonts/eurostile-webfont.woff') format('woff'),
+ 	url('../Webfonts/eurostile-webfont.ttf') format('truetype'),
+ 	url('../Webfonts/eurostile-webfont.svg#Eurostile') format('svg');
+ 	font-weight: normal;
+ 	font-style: normal;
 }
 
 #header {
@@ -24,7 +24,7 @@ body { font-family: "Eurostile" !important;
 	padding: 0px;
 	color: #FDFDFD;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 30px;
 	text-align: center;
 	text-transform: uppercase;
 	text-indent: 0px;
@@ -45,48 +45,90 @@ body { font-family: "Eurostile" !important;
 	float: left;
 	width: 338px;
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 100px;
 	
 }
 
 .post-title {
 	float: right;
-	width: 535px;
+	width: 590px;
 	font-size: 28px;
-	margin-left: 20px;
+	margin-left: 0px;
+	margin-right: 200px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase; 
 	text-align: left;
 	color: #13366D;
-	display: inline-block;
+	/*display: inline-block; */
 }
 
 p.paragraph {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 590px;
+	margin-left: 0px;
+	margin-right: 200px;
 	text-align: left;	
 }
 
 p.paragraph2 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 590px;
+	margin-left: 0px;
+	margin-right: 200px;
 	text-align: left;	
 }
 
 p.paragraph3 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 590px;
+	margin-left: 0px;
+	margin-right: 200px;
+	text-align: left;	
+}
+
+p.paragraph3b {
+	float: right;
+	width: 590px;
+	margin-left: 0px;
+	margin-right: 200px;
 	text-align: left;	
 }
 
 p.paragraph4 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 590px;
+	margin-left: 0px;
+	margin-right: 200px;
 	text-align: left;	
+}
+
+p.paragraph5 {
+	float: right;
+	width: 590px;
+	margin-left: 0px;
+	margin-right: 200px;
+	text-align: left;
+
+	/* float: left;
+	width: 300px;
+	margin-top: -50px;
+	margin-left: 50px;
+	text-align: left; */	
+}
+
+p.paragraph6 {
+	float: right;
+	width: 590px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: left;
+}
+
+.pure-form {
+	float: left;
+	width: 350px;
+	margin-left: 450px;
+	text-align: left;
 }
 
 a.over {
@@ -109,6 +151,3 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-
-
-
