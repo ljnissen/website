@@ -1,0 +1,85 @@
+<!doctype>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/contact.css" />
+</head>
+
+<title>CONTACT</title>
+
+
+<link rel="stylesheet" href="./css/contact.css" />
+<meta charset="utf-8">
+
+<style type="text/css">
+</style>
+
+
+	<div id="header" border="10">
+
+		<div id="header_button"><a class="over" href="http://ljnissen.com/about-me">HOME</a></div>
+		<div id="header_button"><a class="over" href="http://ljnissen.com/about-me">ABOUT</a></div>
+		<div id="header_button"><a class="over" href="http://ljnissen.com/about-me">BOOKS</a></div>
+		<div id="header_button"><a class="over" href="http://ljnissen.com/about-me">ARTICLES</a></div>
+		<div id="header_button"><a class="over" href="http://ljnissen.com/about-me">NEWSLETTER</a></div>
+		<div id="header_button"><a class="over" href="http://ljnissen.com/about-me">CONTACT</a></div>
+	</div>
+
+	<div class="post-thumb">
+			<img src="images/document_icon.jpg"/>	
+
+	</div>
+		<div class="content">
+			<h1 class="post-title">CONTACT</h1>
+			<p class="paragraph">I love getting thoughtful emails and I read everyone of them.</p>
+				<form class="pure-form">
+				    <fieldset>
+				        <legend>Please leave your note here.</legend>
+
+				        <input type="name" placeholder="name">
+				        <input type="email" placeholder="email">
+				        <br />
+				        <br />
+				        <textarea rows="4" cols="50" placeholder="message"></textarea> 
+				        <button type="submit" class="pure-button pure-button-primary">Send</button>
+				    </fieldset>
+				</form>
+	<?php
+
+	// To send HTML mail, the Content-type header must be set
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+$to = 'lj.nissen@gmail.com';
+$subject = 'From website';
+
+$name = $_POST['name']
+$email = $_POST['email']
+$message = $_MESSAGE['message']
+
+$message = <<<EMAIL
+
+$name
+$email
+$message
+
+
+EMAIL;
+
+
+
+$header = 'email';
+
+if($_POST){
+mail($to, $subject, $message, $header)
+$feedback = "Thanks for subscribing!";
+
+
+
+
+?>
+		
+
+
+	
+</html>
