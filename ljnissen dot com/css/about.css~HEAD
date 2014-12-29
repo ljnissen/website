@@ -1,12 +1,12 @@
-body { font-family: "Eurostile" !important; 
- src: local(Eurostile), url("http://coquilles-web-logo.se/fonts/eurostile-webfont.ttf");
- src: url('http://coquilles-web-logo.se/fonts/eurostile-webfont.eot');
- src: url('http://coquilles-web-logo.se/fonts/eurostile-webfont.eot?#iefix') format('embedded-opentype');
- url('http://coquilles-web-logo.se/fonts/eurostile-webfont.woff') format('woff');
- url('http://coquilles-web-logo.se/fonts/eurostile-webfont.ttf') format('truetype');
- url('http://coquilles-web-logo.se/fonts/eurostile-webfont.svg#FontName') format('svg');
- font-weight: normal;
- font-style: normal;
+@font-face { 
+	font-family: 'Eurostile' !important; 
+ 	src: url('../Webfonts/eurostile-webfont.eot');
+ 	src: url('../Webfonts/eurostile-webfont.eot?#iefix') format('embedded-opentype'),
+ 	url('../Webfonts/eurostile-webfont.woff') format('woff'),
+ 	url('../Webfonts/eurostile-webfont.ttf') format('truetype'),
+ 	url('../Webfonts/eurostile-webfont.svg#Eurostile') format('svg');
+ 	font-weight: normal;
+ 	font-style: normal;
 }
 
 #header {
@@ -24,7 +24,7 @@ body { font-family: "Eurostile" !important;
 	padding: 0px;
 	color: #FDFDFD;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 30px;
 	text-align: center;
 	text-transform: uppercase;
 	text-indent: 0px;
@@ -36,7 +36,7 @@ body { font-family: "Eurostile" !important;
  	padding: 0px;
 	background: #D4D2D2;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 	color: #484948;
 	display: inline-block;
 } 
@@ -51,9 +51,10 @@ body { font-family: "Eurostile" !important;
 
 .post-title {
 	float: right;
-	width: 535px;
-	font-size: 28px;
-	margin-left: 20px;
+	width: 450px;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-right: 100px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase; 
 	text-align: left;
@@ -63,29 +64,33 @@ body { font-family: "Eurostile" !important;
 
 p.paragraph {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 450px;
+	margin-left: 50px;
+	margin-right: 100px;
 	text-align: left;	
 }
 
 p.paragraph2 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 450px;
+	margin-left: 50px;
+	margin-right: 100px;
 	text-align: left;	
 }
 
 p.paragraph3 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 450px;
+	margin-left: 50px;
+	margin-right: 100px;
 	text-align: left;	
 }
 
 p.paragraph4 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
+	width: 450px;
+	margin-left: 50px;
+	margin-right: 100px;
 	text-align: left;	
 }
 

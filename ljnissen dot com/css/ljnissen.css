@@ -123,7 +123,7 @@ h1.about {
 div.content2 {
 	margin-left: -10px;
 	width: 1600px;
-	height: 700px;
+	height: 850px;
 	background: #F0F0F1 no-repeat left top;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	border: 30px solid;
@@ -132,7 +132,7 @@ div.content2 {
 }
 
 h2.page {
-	margin-top: 0px;
+	margin-top: -10px;
 	margin-left: 15px;
 	font-size: 28px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
@@ -143,10 +143,10 @@ h2.page {
 
 p.pick {
 	width: 900px;
-	margin-top: 0px;
+	margin-top: 15px;
 	margin-left: 15px;
 	margin-right: 200px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	font-size: 24px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -174,7 +174,6 @@ h3.post-thumb-bottom-left {
 }
 
 h3.post-thumb-bottom-right {
-	margin-top: 15px;
 	margin-left: 0px;
 	margin-right: 500px;
 	display: inline;
@@ -192,8 +191,10 @@ h2.recent {
 
  .column1 {
 	width: 630px;
+	height: 400px;
 	margin-left: -30px;
 	margin-top: 28px;
+	margin-bottom: 0px;
 	float: left;
 	font-size: 24px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
@@ -204,9 +205,11 @@ h2.recent {
 
    h3.revisit {
    	width: 300px;
+   	height: 400px;
 	float: left;
 	margin-left: 45px;
 	margin-top: 15px;
+	margin-bottom: 0px;
 	font-size: 24px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -217,9 +220,11 @@ h2.recent {
 
 .column2 {
 	width: 650px;
+	height: 400px;
 	float: right;
 	margin-top: 0px;
 	margin-right: 150px;
+	margin-bottom: 0px;
 	font-size: 24px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -230,9 +235,11 @@ h2.recent {
 h3.top {
 	float: right;
 	width: 300px;
-	margin-top: 42px;
+	height: 400px;
+	margin-top: 40px;
 	margin-left: 170px;
 	margin-right: 520px;
+	margin-bottom: 0px;
 	font-size: 24px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	text-align: left;
@@ -243,7 +250,7 @@ h3.top {
 #footer {
 	margin-left: -50px;
 	width: 1600px;
-	height: 500px;
+	height: 400px;
 	background: #484948 no-repeat left top;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	border: 30px solid;
