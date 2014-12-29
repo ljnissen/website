@@ -2,13 +2,13 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="./css/books.css" />
+	<link rel="stylesheet" type="text/css" href="./css/contact.css" />
 </head>
 
-<title>BOOKS</title>
+<title>CONTACT</title>
 
 
-<link rel="stylesheet" href="./css/books.css" />
+<link rel="stylesheet" href="./css/contact.css" />
 <meta charset="utf-8">
 
 <style type="text/css">
@@ -26,27 +26,22 @@
 	</div>
 
 	<div class="post-thumb">
-			<img src="images/bookjuniormining.png"/>	
+			<img src="images/document_icon.jpg"/>	
 
 	</div>
 		<div class="content">
-			<h1 class="post-title">BOOKS</h1>
-			<p class="paragraph">I'm releasing my first book in the spring of 2015. It will be about investing in junior miners.</p>
-			<p class="paragraph2">In the book I will lay out a detailed strategy for valuing resource projects and provide a step-by-step guide to putting money at work.</p>
-			<p class="paragraph3">To invest in the junior resource space can be challenging. You can lose a lot of money as well as it can be extraordinarily lucrative. The key to investing in the sector is to tell which companies are viable, which are not and when they are.</p>
-			<p class="paragraph3b">This I will teach in the book.</p>
-			<p class="paragraph4">I will also describe exactly which factors to look at when valuing a resource project. This together with real life examples will make it incredible value for both lay- and more sophisticated investors.</p>
-			<p class="paragraph5">Do you want to know more?<br/><br />Sign up for my mailing list to be the first to know when the book is available.</p>
-			<br>
+			<h1 class="post-title">CONTACT</h1>
+			<p class="paragraph">I love getting thoughtful emails and I read everyone of them.</p>
 				<form class="pure-form">
 				    <fieldset>
-				        <legend>Subscribe to email list</legend>
+				        <legend>Please leave your note here.</legend>
 
 				        <input type="name" placeholder="name">
 				        <input type="email" placeholder="email">
 				        <br />
 				        <br />
-				        <button type="submit" class="pure-button pure-button-primary">Sign up</button>
+				        <textarea rows="4" cols="50" placeholder="message"></textarea> 
+				        <button type="submit" class="pure-button pure-button-primary">Send</button>
 				    </fieldset>
 				</form>
 	<?php
@@ -60,7 +55,7 @@ $subject = 'From website';
 
 $name = $_POST['name']
 $email = $_POST['email']
-
+$message = $_MESSAGE['message']
 
 $message = <<<EMAIL
 
