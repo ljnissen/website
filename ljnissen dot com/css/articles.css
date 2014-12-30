@@ -31,29 +31,44 @@
 	display: inline-block;	
 }
 
+
  body {
  	margin: 0px;
  	padding: 0px;
 	background: #D4D2D2;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	color: #484948;
 	display: inline-block;
 } 
 
-.post-thumb {
+
+#content_one {
+	margin-right: 15px;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+.post-thumb-left {
 	float: left;
-	width: 338px;
 	margin-top: 20px;
-	margin-left: 20px;
-	
+	margin-left: 0px;
+	margin-right: 300px;
+	display: inline-block;
+}
+
+.post-thumb-right {
+	float: right;
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-right: 100px;
+	display: inline-block;
 }
 
 .post-title {
-	float: right;
 	width: 450px;
 	font-size: 30px;
-	margin-left: 50px;
+	margin-left: 0px;
 	margin-right: 100px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase; 
@@ -63,43 +78,87 @@
 }
 
 p.paragraph {
-	float: right;
-	width: 450px;
-	margin-left: 50px;
+	float: left;
+	width: 350px;
+	margin-top: 30px;
+	margin-left: 0px;
 	margin-right: 100px;
-	text-align: left;	
-}
-
-p.paragraph2 {
-	float: right;
-	width: 450px;
-	margin-left: 50px;
-	margin-right: 100px;
-	text-align: left;	
-}
-
-p.paragraph3 {
-	float: right;
-	width: 450px;
-	margin-left: 50px;
-	margin-right: 100px;
-	text-align: left;	
+	text-align: left;
+	display: inline;	
 }
 
 p.paragraph4 {
 	float: right;
-	width: 450px;
-	margin-left: 50px;
-	margin-right: 100px;
-	text-align: left;	
+	width: 250px;
+	margin-top: 25px;
+	margin-left: 0px;
+	margin-right: 50px;
+	text-align: left;
+	display: inline;		
 }
+
+p.paragraph2 {
+	float: left;
+	width: 350px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 100px;
+	text-align: left;
+	display: inline;	
+}
+
+p.paragraph5 {
+	float: right;
+	width: 250px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 50px;
+	text-align: left;
+	display: inline;	
+}
+
+p.paragraph3 {
+	float: left;
+	width: 350px;
+	margin-left: 0px;
+	margin-right: 100px;
+	font-size: 18px;
+	text-align: left;
+	display: inline;	
+}
+
+p.paragraph6 {
+	float: right;
+	width: 250px;
+	margin-top: 18px;
+	margin-left: 0px;
+	margin-right: 50px;
+	font-size: 18px;
+	text-align: left;
+	display: inline;	
+}
+
+
+
+
 
 a.over {
 	text-decoration: none;
 	color: white;
 }
 
+a.walkover {
+	text-decoration: none;
+	color: #484948;;
+}
+
 a.over:hover {
+	text-decoration: none;
+	color: white;
+	text-decoration: underline;
+}
+
+a.walkover:hover {
 	text-decoration: none;
 	color: white;
 	text-decoration: underline;

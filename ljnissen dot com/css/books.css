@@ -51,62 +51,63 @@
 
 .post-title {
 	float: right;
-	width: 590px;
+	width: 490px;
 	font-size: 28px;
-	margin-left: 0px;
-	margin-right: 200px;
+	margin-top: 30px;
+	/* margin-left: -30px; */
+	margin-right: 50px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase; 
 	text-align: left;
 	color: #13366D;
-	/*display: inline-block; */
+	display: inline-block;
 }
 
 p.paragraph {
 	float: right;
-	width: 590px;
+	width: 490px;
 	margin-left: 0px;
-	margin-right: 200px;
+	margin-right: 50px;
 	text-align: left;	
 }
 
 p.paragraph2 {
 	float: right;
-	width: 590px;
+	width: 490px;
 	margin-left: 0px;
-	margin-right: 200px;
+	margin-right: 50px;
 	text-align: left;	
 }
 
 p.paragraph3 {
 	float: right;
-	width: 590px;
+	width: 490px;
 	margin-left: 0px;
-	margin-right: 200px;
+	margin-right: 50px;
 	text-align: left;	
 }
 
 p.paragraph3b {
 	float: right;
-	width: 590px;
+	width: 490px;
 	margin-left: 0px;
-	margin-right: 200px;
+	margin-right: 50px;
 	text-align: left;	
 }
 
 p.paragraph4 {
 	float: right;
-	width: 590px;
+	width: 490px;
 	margin-left: 0px;
-	margin-right: 200px;
+	margin-right: 50px;
 	text-align: left;	
 }
 
 p.paragraph5 {
 	float: right;
-	width: 590px;
+	width: 490px;
 	margin-left: 0px;
-	margin-right: 200px;
+	margin-right: 50px;
 	text-align: left;
 
 	/* float: left;
@@ -119,8 +120,8 @@ p.paragraph5 {
 p.paragraph6 {
 	float: right;
 	width: 590px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 0px;
+	margin-right: 50px;
 	text-align: left;
 }
 

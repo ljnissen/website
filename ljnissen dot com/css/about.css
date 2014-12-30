@@ -45,16 +45,16 @@
 	float: left;
 	width: 338px;
 	margin-top: 20px;
-	margin-left: 100px;
+	margin-left: 20px;
 	
 }
 
 .post-title {
 	float: right;
-	width: 535px;
+	width: 450px;
 	font-size: 30px;
-	margin-left: 20px;
-	margin-right: 150px;
+	margin-left: 50px;
+	margin-right: 100px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase; 
 	text-align: left;
@@ -64,33 +64,33 @@
 
 p.paragraph {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
-	margin-right: 150px;
+	width: 450px;
+	margin-left: 50px;
+	margin-right: 100px;
 	text-align: left;	
 }
 
 p.paragraph2 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
-	margin-right: 150px;
+	width: 450px;
+	margin-left: 50px;
+	margin-right: 100px;
 	text-align: left;	
 }
 
 p.paragraph3 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
-	margin-right: 150px;
+	width: 450px;
+	margin-left: 50px;
+	margin-right: 100px;
 	text-align: left;	
 }
 
 p.paragraph4 {
 	float: right;
-	width: 535px;
-	margin-left: 20px;
-	margin-right: 150px;
+	width: 450px;
+	margin-left: 50px;
+	margin-right: 100px;
 	text-align: left;	
 }
 
