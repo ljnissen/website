@@ -36,25 +36,27 @@
  	padding: 0px;
 	background: #D4D2D2;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	color: #484948;
 	display: inline-block;
 } 
 
-.post-thumb {
+.predictions {
 	float: left;
-	width: 500px;
-	margin-top: 50px;
+	width: 200px;
+	margin-top: 20px;
 	margin-left: 350px;
 	
 }
 
 .post-title {
-	float: right;
-	width: 800px;
+	float: left;
+	width: 690px;
 	font-size: 28px;
-	margin-left: 0px;
-	margin-right: 120px;
+	margin-top: 30px;
+	/* margin-left: -30px; */
+	margin-left: 100px;
+	margin-right: 50px;
 	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase; 
 	text-align: left;
@@ -63,36 +65,105 @@
 }
 
 p.paragraph {
-	float: right;
-	width: 800px;
-	margin-left: 140px;
-	margin-right: 0px;
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
 	text-align: left;	
 }
 
 p.paragraph2 {
-	float: right;
-	width: 500px;
-	margin-left: 0px;
-	margin-right: 215px;
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
 	text-align: left;	
 }
 
 p.paragraph3 {
-	float: right;
-	width: 500px;
-	margin-left: 0px;
-	margin-right: 195px;
-	font-size: 18px;
-	color: gray;
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
 	text-align: left;	
 }
 
-
-.pure-form {
+p.paragraph3b {
 	float: left;
-	width: 350px;
-	margin-left: 255px;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
+	text-align: left;	
+}
+
+p.paragraph4 {
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
+	text-align: left;	
+}
+
+p.paragraph5 {
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
+	text-align: left;
+
+	/* float: left;
+	width: 300px;
+	margin-top: -50px;
+	margin-left: 50px;
+	text-align: left; */	
+}
+
+p.paragraph6 {
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+p.paragraph7 {
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+p.paragraph8 {
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+p.paragraph9 {
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+p.paragraph10 {
+	float: left;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+p.paragraph11 {
+	float: left;
+	font-size: 14px;
+	width: 690px;
+	margin-left: 100px;
+	margin-right: 50px;
 	text-align: left;
 }
 
