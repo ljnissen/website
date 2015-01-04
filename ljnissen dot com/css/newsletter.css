@@ -39,6 +39,16 @@
 	font-size: 24px;
 	color: #484948;
 	display: inline-block;
+}
+
+ h1 {
+ 	margin: 0px;
+ 	padding: 0px;
+	background: #D4D2D2;
+	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color: #484948;
+	display: inline-block;
 } 
 
 .post-thumb {

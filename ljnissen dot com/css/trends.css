@@ -42,11 +42,37 @@
 } 
 
 .trends {
+
+	height: 100%;
+	float: left;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	display: inline-block;
+	vertical-align: top;	
+}
+
+.Fig1 {
+
+	height: 100%;
 	float: left;
 	width: 200px;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-left: 100px;
-	
+	display: inline-block;
+	vertical-align: top;
+}
+
+.Fig2 {
+
+	height: 100%;
+	float: left;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 100px;	
+	display: inline-block;
+	vertical-align: top;
 }
 
 .post-title {
@@ -119,16 +145,42 @@ p.paragraph5 {
 
 p.paragraph6 {
 	float: right;
-	width: 590px;
+	width: 490px;
 	margin-left: 0px;
 	margin-right: 50px;
 	text-align: left;
 }
 
-.pure-form {
-	float: left;
-	width: 350px;
-	margin-left: 450px;
+p.paragraph7 {
+	float: right;
+	width: 490px;
+	margin-left: 0px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+p.paragraph8 {
+	float: right;
+	width: 490px;
+	margin-left: 0px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+p.paragraph9 {
+	float: right;
+	width: 490px;
+	margin-left: 0px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+p.paragraph10 {
+	float: right;
+	font-size: 14px;
+	width: 490px;
+	margin-left: 0px;
+	margin-right: 50px;
 	text-align: left;
 }
 

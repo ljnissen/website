@@ -41,9 +41,20 @@
 	display: inline-block;
 } 
 
+h1 {
+ 	margin: 100px;
+ 	padding: 100px;
+	background: #D4D2D2;
+	font-family: Eurostile, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color: #484948;
+	display: inline-block;
+
+}
+
 .post-thumb {
 	float: left;
-	width: 265px;
+	width: 934px;
 	margin-top: 20px;
 	margin-left: 10px;
 	

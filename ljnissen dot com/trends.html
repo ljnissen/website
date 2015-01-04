@@ -14,6 +14,20 @@
 <style type="text/css">
 </style>
 
+<body>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43051232-7', 'auto');
+  ga('send', 'pageview');
+
+	</script>
+</body>
+
+
 
 	<div id="header" border="10">
 
@@ -26,65 +40,25 @@
 	</div>
 
 	<div class="trends">
-		<img src="images/trendfriendii.png"/>
+		<img src="images/trendfriendii.png" alt="The Trend Is Your Friend"/><br /><br /><br />
+		<img src="images/Fig1.png" alt="S&P500 Moving Average"/><br />
+		<p class="legend">Fig 1</p><br /><br /><br /><br /><br /><br /><br />
+		<img src="images/Fig2.png" alt="ADX Directional Indicators +DI +DI"/><br/>
+		<p class="legend">Fig 2</p><br /><br />
 	</div>
 
 		<div class="content">
 			<h1 class="post-title">THE TREND IS YOUR FRIEND</h1>
-			<p class="paragraph">As 2015 draws to a close I will huddle up in my study, dim the lights and take a deep look in the crystal ball to foresay a few predictions for 2015.</p>
-			<p class="paragraph2"></p>
-			<p class="paragraph3">To invest in the junior resource space can be challenging. You can lose a lot of money as well as it can be extraordinarily lucrative. The key to investing in the sector is to tell which companies are viable, which are not and when they are.</p>
-			<p class="paragraph3b">This I will teach in the book.</p>
-			<p class="paragraph4">I will also describe exactly which factors to look at when valuing a resource project. This together with real life examples will make it incredible value for both lay- and more sophisticated investors.</p>
-			<p class="paragraph5">Do you want to know more?<br/><br />Sign up for my mailing list to be the first to know when the book is available.</p>
+			<p class="paragraph">Today I will take a look at the basics of technical analysis.</p>
+			<p class="paragraph2">Even if the last week of 2014 was a red week (a negative week), it doesn't change the fact that the S&P500 still was up 11.7% for the year.</p>
+			<p class="paragraph3">If you as I look at the intermediate movements in the market, you will see that both the 50-week and 200-week moving averages are moving upwards (Fig. 1).</p>
+			<p class="paragraph3b">This is positive.</p>
+			<p class="paragraph4">Another indicator that is worth taking a look at is the Average Directional Movement Index (ADX). The indicator divides price action of recent days into two distinct directional indicators (+DI and -DI). When they cross each other the upward (or downward) trends are gaining momentum.</p>
+			<p class="paragraph5">This does not paint an as rosy picture.</p>
+			<p class="paragraph6">The ADX turned negative on Friday the 14'th of December and has been moving down since (Fig. 2).</p>
+			<p class="paragraph7">So where does this leave us?</p>
+			<p class="paragraph8">The long term trend is still up as shown by the rising moving averages. However, in the shorter time-frame the index may take a hit.</p>
+			<p class="paragraph9">So it may be a good idea to wait until the S&P500 comes down to kiss the 50-week moving average before putting money at play.</p>
+			<p class="paragraph10">Published January 1'st 2015. Graphics: Freestockcharts.</p>
 			<br>
-				<form class="pure-form">
-				    <fieldset>
-				        <legend>Subscribe to email list</legend>
-
-				        <input type="name" placeholder="name">
-				        <input type="email" placeholder="email">
-				        <br />
-				        <br />
-				        <button type="submit" class="pure-button pure-button-primary">Sign up</button>
-				    </fieldset>
-				</form>
-	<?php
-
-	// To send HTML mail, the Content-type header must be set
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-$to = 'lj.nissen@gmail.com';
-$subject = 'From website';
-
-$name = $_POST['name']
-$email = $_POST['email']
-
-
-$message = <<<EMAIL
-
-$name
-$email
-$message
-
-
-EMAIL;
-
-
-
-$header = 'email';
-
-if($_POST){
-mail($to, $subject, $message, $header)
-$feedback = "Thanks for subscribing!";
-
-
-
-
-?>
-		
-
-
-	
 </html>
